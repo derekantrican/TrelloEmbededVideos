@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ 
+      {
+      "js": [ "resources/jquery-1.9.1.min.js", "resources/content.js" ],
+      "css": [ "resources/styles.css" ],
+      "matches": [ "https://trello.com/*" ]
+      } 
+   ],
+   "web_accessible_resources": [ "resources/videopanel.html" ],
+   "description": "Embeds youtube videos into Trello cards",
+   "icons": {
+      "128": "img/icon128.png"
+   },
+   "manifest_version": 2,
+   "name": "Trello Embeded Videos",
+   "version": "1.0"
+}
