@@ -9,7 +9,7 @@
    "web_accessible_resources": [ "resources/videopanel.html" ],
    "description": "Embeds youtube videos into Trello cards",
    "icons": {
-      "128": "img/icon128.png"
+      "128": "img/TrelloEmbeddedVideos-128.png"
    },
    "manifest_version": 2,
    "name": "Trello Embeded Videos",
